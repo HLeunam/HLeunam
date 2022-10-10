@@ -1,0 +1,15 @@
+SELECT      plano_nome
+            ,benef_matricula
+            ,codigo_venda
+            ,plano_codigo
+            ,data_venda
+            ,cupom_fiscal
+            ,sku_ean
+            ,sku_nome
+            ,industria_nome
+            ,produto_nome
+            ,quantidade
+            ,valor_venda
+FROM NaosPowerBi
+WHERE benef_matricula = "05395172831"
+GROUP BY 1,2,3,4,5,6,7,8,9,10,11,12
